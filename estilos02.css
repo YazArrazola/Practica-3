@@ -1,0 +1,37 @@
+body {
+    background-color: #d6b3e8;
+    padding: 20px;
+}
+
+form {
+    background-color: #f2e3f7;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 5px;
+    background-color: #b57edc;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-size: 12px;
+}
+
+marquee {
+    background-color: #b57edc;
+    color: white;
+    padding: 5px;
+}
