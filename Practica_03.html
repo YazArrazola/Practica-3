@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 03 : Eventos</title>
+    <link rel="stylesheet" href="estilos02.css">
+</head>
+<body>
+<h3><marquee behavior="scroll" direction="right">🌸 Cuidado de la Piel 🌸</marquee></h3>
+<form>
+    <label>Producto:</label>
+    <input type="text" id="producto">
+    <p id="errorProducto" class="error">Campo obligatorio</p>
+
+    <label>Rutina:</label>
+    <textarea id="rutina"></textarea>
+    <p id="errorRutina" class="error">Campo obligatorio</p>
+
+    <button type="button" onclick="agregar()">Agregar</button>
+    <button type="button" onclick="limpiarFormulario()">Limpiar formulario</button>
+    <button type="button" onclick="limpiarLista()">Limpiar lista</button>
+</form>
+<ol id="lista"></ol>
+<script src="script.js"></script>
+</body>
+</html>
